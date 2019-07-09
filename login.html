@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="css/user.css" rel="stylesheet">
+      <script src="js/user.js" async></script>
+    </head>
+    <body>
+        <section class="login">
+            <div class="container">
+            <div class="row d-flex flex-wrap">
+                <div class="col-sm-12 text-center">
+                    <a href="#">Zdjęcie logo</a>
+                </div><br><br>
+            </div>
+                <div class="row mx-auto" style="border:1px solid #e7eaec; width:430px; box-shadow: -6px 14px 39px -1px rgba(0,0,0,0.19);">
+                    <div class="col-sm-12"><br>
+                        <h5 class="text-success text-uppercase">Logowanie</h5><br>
+                        <form id="new_user_session" class="new_user_session" action="#" accept-charset="UTF-8" method="post">
+                            <label for="user_session_login"><span style="font-size:15px;color:#626262"><strong>E-mail lub login</strong></span></label>
+                            <input id="user-session_login" class="form-control" placeholder="Email lub login" autofocus="autofocus" name="user_session[login]" type="text"><br>
+                            <label for="user_session_password"><span style="font-size:15px;color:#626262"><strong>Hasło</strong></span></label>
+                            <input id="user_session_password" class="form-control" placeholder="Hasło" name="user_session[password]" type="password">
+                        <div class="remember">
+                            <input name="user_session_remember_me" value="1" name="user_session[remember_me]" type="checkbox">
+                            <label for="user_session_remember_me"><span style="font-size=10px;">zapamiętaj mnie</span></label>
+                        </div>
+                        <br><br>
+                            <div class="col-sm-12 text-center">
+                        <input class="btn btn-success login text-uppercase text-white" name="commit" value="Zaloguj" type="submit"><br><br>
+                        <a class="text-success" href="#">Przypominj hasło</a><br>
+                                <hr>
+                        <a class="register_button text-success" href="#">Zarejestruj się</a> jeśli nie masz konta
+                            </div><br><br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
